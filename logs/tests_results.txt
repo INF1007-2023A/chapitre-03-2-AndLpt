@@ -1,0 +1,22 @@
+test_average (__main__.TestExercice.test_average) ... ok
+test_bills (__main__.TestExercice.test_bills) ... ok
+test_dissipated_power (__main__.TestExercice.test_dissipated_power) ... ok
+test_format_base (__main__.TestExercice.test_format_base) ... ERROR
+test_orthogonal (__main__.TestExercice.test_orthogonal) ... ok
+
+======================================================================
+ERROR: test_format_base (__main__.TestExercice.test_format_base)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "d:\INF1007\chapitre-03-2-AndLpt\test_exercice.py", line 118, in test_format_base
+    output = [format_base(*d) for d in data]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\INF1007\chapitre-03-2-AndLpt\test_exercice.py", line 118, in <listcomp>
+    output = [format_base(*d) for d in data]
+              ^^^^^^^^^^^
+NameError: name 'format_base' is not defined
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+FAILED (errors=1)
